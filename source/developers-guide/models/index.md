@@ -20,7 +20,7 @@ In order to create models for your plugin, you should create a directory named `
 
 ## Namespaces
 
-Shopware models make use of the PHP namespaces. This makes it possible to create your own article model in a plugin, without interfering with the default Shopware article model. With classes defined in other namespaces, it is not always necessary to use the full namespace. We can *include* them with an `use` statement:
+Shopware models make use of the PHP namespaces. This makes it possible to create your own article model in a plugin, without interfering with the default Shopware article model. With classes defined in other namespaces, it is not always necessary to use the full namespace. We can *include* them with a `use` statement:
 
 ```php
 namespace Shopware\CustomModels\MyPluginName;
